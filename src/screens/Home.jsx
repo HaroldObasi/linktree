@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import Profile from "../components/Profile";
 import Links from "../components/LInks";
 
@@ -7,7 +6,6 @@ const Home = () => {
         <>
             <Profile />
             <Links />
-            <Footer />
         </>
     );
 };
