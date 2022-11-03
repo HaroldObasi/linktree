@@ -15,6 +15,13 @@ const Links = () => (
                 </p>
             </div>
         ))}
+        <div
+            id="contact"
+            onClick={() => (window.location.href = "/contact")}
+            className="bg-gray-200 text-center rounded-md mx-[20px] lg:mx-[144px] py-5 my-4  cursor-pointer hover:bg-gray-300"
+        >
+            <p className="font-inter font-medium text-[18px]">Contact</p>
+        </div>
         <div className="rounded-md mx-[144px] py-5 my-4 flex justify-center flex-row ">
             <a href="https://www.slack.com">
                 <img src="slack.png" alt="" className="w-6 mx-3" />
