@@ -68,6 +68,19 @@ const Contact = () => {
                         placeholder="Send me a message and I'll reply you as soon as possible..."
                     ></textarea>
                 </div>
+                <label class="block font-inter">
+                    <input class="mr-2 border-gray-200  " type="checkbox" />
+                    <span class="text-sm">
+                        You agree to providing your data to haroldobasi who may
+                        contact you.
+                    </span>
+                </label>
+                <button
+                    id="btn__submit"
+                    className="w-full bg-blue-600 py-3 px-auto text-white font-inter rounded-lg hover:bg-blue-700 transition-colors duration-700 ease-in-out"
+                >
+                    Send message
+                </button>
             </form>
         </section>
     );
