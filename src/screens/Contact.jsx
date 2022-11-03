@@ -2,14 +2,14 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <section className="mx-auto mt-10 w-[720px]">
+        <section className="mx-10 md:mx-auto my-10 md:my-[100px] w-[720px]">
             <h1 className="text-4xl font-inter font-bold">Contact Me</h1>
-            <p className="text-gray-600 font-inter text-xl mt-3">
+            <p className="text-gray-600 font-inter text-xl mt-3 overflow-">
                 Hi there, contact me to ask me about anything you have in mind.
             </p>
 
             <form className="mt-7 space-y-5">
-                <div className="flex space-x-4">
+                <div className="flex space-y-4 flex-col md:flex-row md:space-x-4">
                     <div className="w-1/2">
                         <label
                             className="block font-inter text-sm text-gray-700 mb-1"
