@@ -8,36 +8,65 @@ const Contact = () => {
                 Hi there, contact me to ask me about anything you have in mind.
             </p>
 
-            <form className="mt-7">
-                <div className="flex flex-row ">
-                    <div class="mb-4">
+            <form className="mt-7 space-y-5">
+                <div className="flex space-x-4">
+                    <div className="w-1/2">
                         <label
-                            class="block font-inter text-sm text-gray-700 mb-1"
+                            className="block font-inter text-sm text-gray-700 mb-1"
                             for="first_name"
                         >
                             First name
                         </label>
                         <input
-                            class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-blue-400 placeholder:font-inter placeholder:text-md"
-                            id="username"
+                            className="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-blue-400 placeholder:font-inter placeholder:text-md transition-colors duration-200 ease-in-out"
+                            id="first_name"
                             type="text"
-                            placeholder="Username"
+                            placeholder="First name"
                         />
                     </div>
-                    <div class="mb-4">
+                    <div className="w-1/2">
                         <label
-                            class="block font-inter text-sm text-gray-700 mb-1"
-                            for="username"
+                            className="block font-inter text-sm text-gray-700 mb-1"
+                            for="last_name"
                         >
-                            Username
+                            Last name
                         </label>
                         <input
-                            class="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-blue-400 placeholder:font-inter placeholder:text-md"
-                            id="username"
+                            className="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-blue-400 placeholder:font-inter placeholder:text-md transition-colors duration-200 ease-in-out"
+                            id="last_name"
                             type="text"
-                            placeholder="Username"
+                            placeholder="Last name"
                         />
                     </div>
+                </div>
+                <div className="w-full">
+                    <label
+                        className="block font-inter text-sm text-gray-700 mb-1"
+                        for="email"
+                    >
+                        Email
+                    </label>
+                    <input
+                        className="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:border-blue-400 placeholder:font-inter placeholder:text-md transition-colors duration-200 ease-in-out"
+                        id="email"
+                        type="email"
+                        placeholder="yourname@example.com"
+                    />
+                </div>
+
+                <div className="w-full">
+                    <label
+                        className="block font-inter text-sm text-gray-700 mb-1"
+                        for="message"
+                    >
+                        Message
+                    </label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        class="w-full rounded-lg border shadow border-gray-300 focus:border-blue-400 h-32 text-base outline-none py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                        placeholder="Send me a message and I'll reply you as soon as possible..."
+                    ></textarea>
                 </div>
             </form>
         </section>
