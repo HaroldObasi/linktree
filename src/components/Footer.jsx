@@ -8,7 +8,11 @@ const Footer = () => {
             <p className="text-gray-500 font-inter py-3 md">
                 HNG Internship 9 Frontend Task
             </p>
-            <img src={ingressive} alt="" className="md:w-[170px] w-[120px]" />
+            <img
+                src={ingressive}
+                alt=""
+                className="md:w-[150px] md:h-[40px] w-[120px]"
+            />
         </footer>
     );
 };
