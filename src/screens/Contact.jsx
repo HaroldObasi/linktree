@@ -39,10 +39,10 @@ const Contact = () => {
                             First Name
                         </label>
                         <input
-                            class="shadow appearance-none border px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400"
+                            class="shadow appearance-none border px-4 py-2 rounded w-full focus:outline-none focus:border-blue-400"
                             type="text"
                             name="firstname"
-                            id="firstname"
+                            id="first_name"
                         />
                     </div>
                     <div class="md:w-1/2 pt-5 md:pt-0">
@@ -53,10 +53,10 @@ const Contact = () => {
                             Last Name
                         </label>
                         <input
-                            class="shadow appearance-none border px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400"
+                            class="shadow appearance-none border px-4 py-2 rounded w-full focus:outline-none focus:border-blue-400"
                             type="text"
                             name="lastname"
-                            id="lastname"
+                            id="last_name"
                         />
                     </div>
                 </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                         Email
                     </label>
                     <input
-                        class="shadow appearance-none border px-4 py-2 rounded w-full focus:outline-none focus:border-teal-400"
+                        class="shadow appearance-none border px-4 py-2 rounded w-full focus:outline-none focus:border-blue-400"
                         type="email"
                         name="email"
                         id="email"
@@ -104,6 +104,7 @@ const Contact = () => {
                     onClick={(e) => {
                         handleSubmit(e);
                     }}
+                    disabled
                     className="w-full bg-blue-600 py-3 px-auto text-white font-inter rounded-lg hover:bg-blue-700 transition-colors duration-700 ease-in-out"
                 >
                     Send message
