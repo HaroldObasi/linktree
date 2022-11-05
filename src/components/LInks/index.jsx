@@ -20,7 +20,7 @@ const Links = () => (
             onClick={() => (window.location.href = "/contact")}
             className="bg-gray-200 text-center rounded-md mx-[20px] lg:mx-[144px] py-5 my-4  cursor-pointer hover:bg-gray-300"
         >
-            <p className="font-inter font-medium text-[18px]">Contact</p>
+            <p className="font-inter font-medium text-[18px]">Contact Me</p>
         </div>
         <div className="rounded-md mx-[144px] py-5 my-4 flex justify-center flex-row ">
             <a href="https://www.slack.com">
